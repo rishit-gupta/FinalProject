@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url('img/food.jpeg');
+        background-size: 100% 180%;
+        background-repeat: no-repeat;
+        background-position: fixed;
+    }
+
+    .container {
+        background-color: springgreen;
+        height: 100px;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition: all 1s ease-in-out;
+        border-radius: 25px;
+    }
+
+    .container:hover {
+        background-color: red;
+        height: 100px;
+        width: 500px;
+        border-radius: 110px;
+        font-size: 30px;
+    }
+    .box {
+        background-color: lightslategray;
+        height: 260px;
+        width: 250px;
+        position: relative;
+        animation-name: Rishit1;
+        animation-duration: 8s;
+        animation-iteration-count: 6;
+        /*  animation-fill-mode: alternate;
+        animation-timing-function: ease-in-out;
+        animation-direction: reverse; */
+        border-radius: 300px;
+    }
+    @keyframes Rishit1 {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        25% {
+            top: 350px;
+            left: 0px;
+        }
+
+        75% {
+            top: 350px;
+            left: 1100px;
+        }
+
+        100% {
+            top: 0px;
+            left: 1100px;
+        }
+    }
+</style>
+
+<body>
+    <div class="box">
+        <center><br><br><br>
+            <h2>THANK YOU</h2>
+            <h2>FOR YOUR ORDER!!</h2>
+        </center>
+    </div>
+    <center>
+        <div class="container">
+            <a href="menu.html">
+                please Visit Again !!</a><br>
+                Your order will reach you Soon !
+        </div>
+    </center>
+</body>
+</html>

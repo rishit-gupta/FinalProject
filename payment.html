@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cu Lounge.com</title>
+    <link rel="shortcut icon" href="favicon.ico" type=image/x-icon>
+    <link rel="stylesheet" type="text/css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/e8/be/8f/e8be8f841fde252bdb72838377b8b5ce.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+    }
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: rgb(57, 196, 238);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.fourth-row
+{
+align-items: center;
+text-align: center;
+border-radius: 15px;
+border-style: solid ;
+background-color:rgb(168, 240, 140);
+padding:5px;
+text-transform: uppercase;
+font-size: 14px;
+
+}
+
+.cards img{
+    width: 250px;
+}
+.Other
+{
+    align-items: center;
+    text-align: center;
+    font-size:30px;
+    color:black;
+    padding:10px;
+          
+}
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <h1>Mode of Payment</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Owner</h3>
+                <div class="input-field">
+                    <input type="text"  placeholder="Enter Owner Name">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password" placeholder="Enter CVV">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <div class="input-field">
+                    <input type="text"  placeholder="Enter Card Number">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>Card Expiry Date</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep">Sep</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                      </select>
+                      <select name="years" id="years">
+                        <option value="2026">2026</option>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                      </select>
+                </div>
+                <div class="cards">
+                    <img src="https://cardguru.io/assets/credit-card-logos.png">
+                    
+                </div>
+            </div>    
+        </div>
+        <div class="Other">
+            <p><b>Other Method</b></p>
+        </div>
+            <div class="fourth-row" >
+                <form >
+                <div>
+                    <input type="checkbox" id="main">
+                    <label for="main">&nbsp Cash On Delivery</label>
+                </div>
+            </form>
+            
+            </div>
+        <a href="thanks.html">Confirm</a>
+    </div>
+</body>
+</html>
