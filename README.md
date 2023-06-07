@@ -48,9 +48,10 @@ This system allow the staff to serve customer within less time as compared to th
 
 
 # Final Project Azure Link :
-https://happy-pebble-019380810.3.azurestaticapps.net
+https://foodstorage1-secondary.z19.web.core.windows.net/
 
 # github Link :
-
+https://github.com/rishit-gupta/FinalProject
 
 # Project Video Link :
+https://youtu.be/CFCLGRXWQx0
